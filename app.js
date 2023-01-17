@@ -23,7 +23,7 @@ app.use(express.urlencoded({extended: true}));
 
 //blog routes
 
-app.use(blogRoutes);
+app.use('/blogs',blogRoutes);
 //app.use(morgan('dev'));
 
 // app.get('/', (req, res) => {
